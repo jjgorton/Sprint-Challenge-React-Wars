@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Bungee+Inline|Prosto+One');
+
+/* font-family: 'Audiowide', cursive;
+font-family: 'Prosto One', cursive;
+font-family: 'Bungee Inline', cursive; */
+
+html,
+body {
+	box-sizing: border-box;
+}
+
+.character-list {
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+}
+
+.character-container {
+	background: rgba(236, 236, 236, 0.534);
+	margin: 50px;
+	padding: 10px;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.character-container h3 {
+	background: rgba(14, 0, 0, 0.363);
+	color: rgb(226, 225, 225);
+	margin: 0;
+	padding: 10px;
+	text-shadow: -1px -1px 10px white;
+	font-family: 'Prosto One', cursive;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.char-attr {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin-top: 3px;
+}
+
+.char-attr li {
+	width: 90%;
+	margin-left: 20%;
+	text-align: left;
+	font-family: 'Prosto One', cursive;
+	padding: 3px;
+}
