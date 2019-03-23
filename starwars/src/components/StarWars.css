@@ -24,6 +24,13 @@ body {
 	width: 300px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 2px gray;
+	transition: all 500ms linear;
+}
+
+.character-container:hover {
+	transform: translate(-2px, -5px);
+	box-shadow: 2px 2px 30px gray;
+	transition: all 500ms linear;
 }
 
 .character-container h3 {
