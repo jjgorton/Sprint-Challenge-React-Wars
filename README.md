@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  -	ReactJS is a Library that helps developers build large scale application.  The problem developers often have when working with large sets of dynamic data is being able to quickly allow the application to react to changes in data.  React solves this problem by using things like components and a virtual DOM.
+
 - [ ] What does it mean to _think_ in react?
+
+  -	Thinking in React means to break down the UI into smaller pieces, or components that could be reusable.
 
 - [ ] Describe state.
 
+  -	State has been described as the heart or brain of any React app.  Literally, state is an object that holds the data used by the components.
+
 - [ ] Describe props.
+
+  -	Props is often referred to as the blood of a React Application.  Props is what moves the data from one component to the next.
 
 ## Project Set Up
 
